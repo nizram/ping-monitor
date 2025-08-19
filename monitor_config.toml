@@ -1,0 +1,33 @@
+check_interval_seconds = 30
+timeout_seconds = 5
+
+[[systems]]
+name = "Google DNS"
+host = "8.8.8.8"
+protocol = "Ping"
+enabled = true
+
+[[systems]]
+name = "Cloudflare DNS"
+host = "1.1.1.1"
+protocol = "Ping"
+enabled = true
+
+[[systems]]
+name = "Local HTTP"
+host = "127.0.0.1"
+port = 80
+protocol = "Tcp"
+enabled = false
+
+[[systems]]
+name = "Google DNS Alt"
+host = "8.8.4.4"
+protocol = "Ping"
+enabled = true
+
+[[systems]]
+name = "Google DNS Alt"
+host = "8.8.4.4"
+protocol = "Ping"
+enabled = true
